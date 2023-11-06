@@ -70,19 +70,19 @@
         home: home {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(323,100,50)>;
+            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(309,100,50)>;
             label = "HOME";
         };
         lower: lower {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &rgb_ug RGB_COLOR_HSB(197,100,50)>;
+            bindings = <&to 1 &rgb_ug RGB_COLOR_HSB(240,100,50)>;
             label = "LOWER";
         };
         upper: upper {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 2 &rgb_ug RGB_COLOR_HSB(15,100,50)>;
+            bindings = <&to 2 &rgb_ug RGB_COLOR_HSB(43,100,50)>;
             label = "UPPER";
         };
     };
